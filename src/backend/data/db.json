@@ -1,0 +1,9 @@
+{
+  "products": [],
+  "categories": [],
+  "orders": [],
+  "customers": [],
+  "admins": [
+    { "id": 1, "email": "admin@a24.com", "password": "admin123", "role": "superadmin" }
+  ]
+}
