@@ -286,15 +286,15 @@ function Contact() {
                 <h2 style={{...styles.title, fontSize: '30px', marginBottom: '15px', textAlign: 'left'}}>Our Details</h2>
                 <div style={styles.infoItem}>
                     <span style={styles.infoIcon}>📍</span>
-                    <p style={styles.infoText}>123 Perfume Avenue, Scent City, PC 45678</p>
+                    <p style={styles.infoText}>Near parag mobile shop khed, 9921168653</p>
                 </div>
                 <div style={styles.infoItem}>
                     <span style={styles.infoIcon}>📞</span>
-                    <p style={styles.infoText}>+1 (555) 123-4567</p>
+                    <p style={styles.infoText}>9921168653</p>
                 </div>
                 <div style={styles.infoItem}>
                     <span style={styles.infoIcon}>📧</span>
-                    <p style={styles.infoText}>info@a24perfumes.com</p>
+                    <p style={styles.infoText}>patnea24perfumes@gmail.com</p>
                 </div>
                 <div style={styles.mapContainer}>
                     <div style={styles.mapPlaceholder}>Map Placeholder</div>
