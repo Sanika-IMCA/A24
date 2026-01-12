@@ -97,3 +97,18 @@ export async function fetchCustomers() {
   if (!res.ok) throw new Error('Failed to fetch customers');
   return await res.json();
 }
+
+export default {
+  loginAdmin,
+  fetchProducts,
+  createProduct,
+  updateProduct,
+  deleteProduct,
+  dashboardOverview,
+  fetchCategories,
+  createCategory,
+  updateCategory,
+  deleteCategory,
+  fetchOrders,
+  fetchCustomers
+};
