@@ -297,7 +297,16 @@ function Contact() {
                     <p style={styles.infoText}>patnea24perfumes@gmail.com</p>
                 </div>
                 <div style={styles.mapContainer}>
-                    <div style={styles.mapPlaceholder}>Map Placeholder</div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.1234!2d85.1376!3d25.5941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5f8c8c8c8c8c%3A0x1234567890abcdef!2zUGF0bmEsIEJpaGFy!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="100%" 
+                        style={{border: 0}} 
+                        allowFullScreen="" 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade"
+                        title="Location Map"
+                    ></iframe>
                 </div>
             </div>
         </section>
