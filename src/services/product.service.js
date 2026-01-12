@@ -67,3 +67,32 @@ export const deleteProduct = async (id) => {
     .eq('id', id);
   return { error };
 };
+
+/**
+ * Fetch all categories
+ * @returns {Promise<{data, error}>}
+ */
+export const fetchCategories = async () => {
+  const { data, error } = await supabase
+    .from('categories')
+    .select('*')
+    .order('name');
+  return { data, error };
+};
+
+/**
+ * Fetch products with their categories
+ * @returns {Promise<{data, error}>}
+ */
+export const fetchProductsWithCategories = async () => {
+  const { data, error } = await supabase
+    .from('products')
+    .select(`
+      *,
+      categories (
+        name
+      )
+    `)
+    .order('created_at', { ascending: false });
+  return { data, error };
+};
